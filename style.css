@@ -23,6 +23,13 @@ body {
     padding: 210px 150px;
 }
 
+.works {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .logo {
     text-decoration: none;
     color: #ffffff;
@@ -114,6 +121,9 @@ body {
 .content {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
 .icon {
@@ -128,4 +138,25 @@ body {
     font-size: 1.5em;
 }
 
+.footer {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
 
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #ffffff;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+
+@media (max-width:1023px){}
