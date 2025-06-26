@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+}
+
+.header {
+    background-color: #ffffff00;
+    padding: 20px 200px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+}
+
+.main {
+    padding: 210px 150px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #767676;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.contenr h2 {
+    color: #ffffff;
+}
+
+.contenr h2 span {
+    color: #ffffff;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.contenr h3 {
+    color: #ffffff;
+}
+
+.btn-main {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: 0.8s ease;
+}
+
+.btn-main:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Social-icon a {
+    color: #ffffff;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.Social-icon a:hover {
+    color: #939393;
+    transition: 0.5s;
+}
+
+.title {
+    color: #ffffff;
+}
+
+.cards {
+    padding-top: 30px;
+    padding-left: 90px;
+    display: flex;
+    gap: 10px;
+}
+
+.img {
+    margin-top: 10px;
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card-1 {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 4.5em;
+}
+
+.contact .info h3 {
+    color: #000;
+}
+
+.contact .info p {
+    font-size: 1.5em;
+}
+
+
